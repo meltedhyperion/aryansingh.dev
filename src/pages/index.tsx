@@ -23,7 +23,7 @@ export default function Home({props}: any) {
       <div className="flex flex-col ">
         <div className="flex justify-between items-center">
           <div className="p-8 "><Image alt="profile" className='rounded-full' src = {dp} height={400} width={400} /> </div>
-          <div className="font-semibold  text-[8rem]">Hey, I'm Aryan</div>
+          <div className="font-semibold  text-[8rem]">Hey, I&apos;m Aryan</div>
         </div>
         <div className="font-semibold text-[8rem] mt-[8rem] px-8">I am a backend developer</div>
       </div>
