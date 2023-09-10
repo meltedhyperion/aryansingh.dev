@@ -20,13 +20,13 @@ export default function Home({props}: any) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-[#121212] h-screen flex justify-between text-gray-300 font-bold text-3xl w-full bg-clip-border	">
+      <main className=" bg-gradient-to-r from-green-400 to-blue-500 h-screen flex justify-between text-gray-300 font-bold text-3xl w-full bg-clip-border	">
       <div className="flex flex-col ">
         <div className="flex justify-between items-center">
           <div className="p-8 "><Image alt="profile" className='rounded-full' src = {dp} height={400} width={400} /> </div>
           <div className="font-semibold  text-[8rem]">Hey, I&apos;m Aryan</div>
         </div>
-        <div className="font-semibold text-[8rem] mt-[8rem] px-8">I am a backend developer</div>
+        <div className="font-semibold text-[8rem] mt-[8rem] px-8">I am a <span className="text-red-500">backend</span> developer</div>
       </div>
       <div className="flex flex-col justify-end p-10">
         <div className="flex flex-col gap-16 ">
