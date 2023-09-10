@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import dp from "../assets/Aryan.jpg"
+import dp from "../assets/Aryan.png"
 import { FiTwitter,FiInstagram, FiGithub, FiLinkedin } from "react-icons/fi";
 import { useRouter } from 'next/router'
 import Link from 'next/link'
@@ -24,7 +24,7 @@ export default function Home({props}: any) {
       <div className="flex flex-col ">
         <div className="flex justify-between items-center">
           <div className="p-8 "><Image alt="profile" className='rounded-full' src = {dp} height={400} width={400} /> </div>
-          <div className="font-semibold  text-[8rem]">Hey, I&apos;m Aryan</div>
+          <div className="font-semibold text-[8rem]"><span>Hey, I&apos;m Aryan</span></div>
         </div>
         <div className="font-semibold text-[8rem] mt-[8rem] px-8">I am a <span className="text-red-500">backend</span> developer</div>
       </div>
